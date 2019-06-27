@@ -1,0 +1,765 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+	<!-- Website Title & Description for Search Engine purposes -->
+	<title>Study Corner</title>
+	<meta name="description"
+		content="Learn how to code your first responsive website with the new Twitter Bootstrap 3.">
+
+	<!-- Mobile viewport optimized -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+	<!-- Bootstrap CSS -->
+	<link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+	<link href="includes/css/bootstrap-glyphicons.css" rel="stylesheet">
+
+	<!-- Custom CSS -->
+	<link rel="stylesheet" href="includes/css/styles.css">
+	<link rel="stylesheet" href="css/all.css">
+	<link rel="stylesheet" href="css/style.css">
+	<link href="https://fonts.googleapis.com/css?family=Stylish&display=swap" rel="stylesheet">
+
+	<!-- Include Modernizr in the head, before any other Javascript -->
+	<script src="includes/js/modernizr-2.6.2.min.js"></script>
+
+</head>
+
+<body>
+	<header>
+		<div class="container" id="main">
+
+			<div class="navbar navbar-fixed-top bg-inverse">
+				<div class="container">
+
+					<!-- .btn-navbar is used as the toggle for collapsed navbar content -->
+					<button class="navbar-toggle" data-target=".navbar-responsive-collapse" data-toggle="collapse"
+						type="button">
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+
+					<a class="navbar-brand" href="/"><img src="images/study corner.png" alt="Your Logo" width="100"></a>
+
+					<div class="nav-collapse collapse navbar-responsive-collapse">
+						<ul class="nav navbar-nav">
+							<li class="active">
+								<a href="#">Home</a>
+							</li>
+
+							<li class="dropdown active">
+								<a href="#" class="dropdown-toggle" data-toggle="dropdown">Features <strong
+										class="caret"></strong></a>
+
+								<ul class="dropdown-menu">
+									<li>
+										<a href="#">More Info</a>
+									</li>
+
+									<li>
+										<a href="#">Design</a>
+									</li>
+
+									<li>
+										<a href="#">Web Development</a>
+									</li>
+
+									<li class="divider"></li>
+
+									<li class="dropdown-header">More Services</li>
+
+									<li>
+										<a href="#">Paid Journals</a>
+									</li>
+
+									<li>
+										<a href="#">Premium</a>
+									</li>
+								</ul><!-- end dropdown-menu -->
+							<li class="active">
+								<a href="#">Hot News</a>
+							</li>
+							<li class="active">
+								<a href="#">Blog</a>
+							</li>
+							<li class="active">
+								<a href="#">Hot News</a>
+							</li>
+							<li class="active">
+								<a href="#">Membership</a>
+							</li>
+						</ul>
+
+						<form class="navbar-form pull-left searchbar">
+							<input type="text" class="form-control" placeholder="Search this site..." id="searchInput">
+							<button type="submit" class="btn btn-default"><span
+									class="glyphicon glyphicon-search"></span></button>
+						</form><!-- end navbar-form -->
+
+						<ul class="nav navbar-nav pull-right">
+							<li class="dropdown active">
+								<a href="#" class="dropdown-toggle" data-toggle="dropdown"><span
+										class="glyphicon glyphicon-user"></span> My Account <strong
+										class="caret"></strong></a>
+
+								<ul class="dropdown-menu">
+									<li>
+										<a href="#"><span class="glyphicon glyphicon-wrench"></span> Settings</a>
+									</li>
+
+									<li>
+										<a href="#"><span class="glyphicon glyphicon-refresh"></span> Update Profile</a>
+									</li>
+
+									<li>
+										<a href="#"><span class="glyphicon glyphicon-briefcase"></span> Orders</a>
+									</li>
+
+									<li class="divider"></li>
+
+									<li>
+										<a href="#"><span class="glyphicon glyphicon-off"></span> Sign out</a>
+									</li>
+								</ul>
+							</li>
+						</ul><!-- end nav pull-right -->
+					</div><!-- end nav-collapse -->
+
+				</div><!-- end container -->
+			</div><!-- end navbar -->
+
+	</header>
+	<section>
+		<div class="carousel slide" id="myCarousel">
+
+			<!-- Indicators -->
+			<ol class="carousel-indicators">
+				<li class="active" data-slide-to="0" data-target="#myCarousel"></li>
+				<li data-slide-to="1" data-target="#myCarousel"></li>
+				<li data-slide-to="2" data-target="#myCarousel"></li>
+			</ol>
+
+			<!-- Wrapper for slides -->
+			<div class="carousel-inner">
+				<div class="item active" id="slide1">
+					<img src="images/carousel1.jpg" alt="study harder" class="img-fluid">
+					<div class="carousel-caption">
+						<h4>STUDY HARDER</h4>
+						<p>Try and try until you succeed</p>
+					</div><!-- end carousel-caption-->
+				</div><!-- end item -->
+
+				<div class="item" id="slide2">
+						<img src="images/carousel2.jpg" alt="study harder" class="img-fluid">
+					<div class="carousel-caption">
+						<h4>Explore Yourself</h4>
+						<p>Find new things and do it in a good way</p>
+					</div><!-- end carousel-caption-->
+				</div><!-- end item -->
+
+				<div class="item" id="slide3">
+						<img src="images/carousel3.jpg" alt="study harder" class="img-fluid">
+					<div class="carousel-caption">
+						<h4>Be  a PRO</h4>
+						<p>Everything is easy if you made put your efforts</p>
+					</div><!-- end carousel-caption-->
+				</div><!-- end item -->
+			</div><!-- carousel-inner -->
+
+			<!-- Controls -->
+			<a class="left carousel-control" data-slide="prev" href="#myCarousel"><span class="icon-prev"></span></a>
+			<a class="right carousel-control" data-slide="next" href="#myCarousel"><span class="icon-next"></span></a>
+
+		</div><!-- end myCarousel -->
+	</section>
+
+	<section>
+		<div class="row" id="bigCallout">
+			<div class="col-12">
+
+				<div class="alert alert-success alert-block fade in" id="successAlert">
+					<button type="button" class="close" data-dismiss="alert">&times;</button>
+
+					<h4>Success!</h4>
+					<p>Membership Activated For an Year</p>
+				</div><!-- end alert -->
+
+				<!-- Visible only on small devices -->
+				<div class="well well-small visible-sm">
+					<a href="" class="btn btn-large btn-block btn-default"><span
+							class="glyphicon glyphicon-phone"></span>
+						Give us a call!</a>
+				</div><!-- end well-small -->
+
+				<div class="well">
+					<div class="page-header">
+						<h1>DAILY UPDATES <small>For more details contact us</small></h1>
+					</div><!-- end page-header -->
+
+					<p class="lead">Learning made easy through our single site and no need to go for multiples
+						sites.This gives a right place to learn all things which you needed
+					</p>
+
+					<a href="" class="btn btn-large btn-primary" id="alertMe">Membership</a>
+					<a href="" class="btn btn-large btn-link">Must Follow</a>
+				</div><!-- end well -->
+
+			</div><!-- end col-12 -->
+		</div><!-- end bigCallout -->
+
+	</section>
+	<div class="row" id="featuresHeading">
+		<div class="col-12">
+			<h2>Our Content</h2>
+			<p class="lead">Courses we offer</p>
+		</div><!-- end col-12 -->
+	</div><!-- end featuresHeading -->
+
+
+	<div class="row" id="features">
+		<div class="col-sm-4 feature">
+			<div class="panel">
+				<div class="panel-heading">
+					<h3 class="panel-title">TUTORIALS POINT</h3>
+				</div><!-- end panel-heading -->
+				<img src="images/tutorialspoint.png" alt="HTML5" class="images">
+
+				<p>Tutorials Point originated from the idea that there
+					exists a class of readers who respond better to online content
+					and prefer to learn new skills at their own pace from the comforts
+					of their drawing rooms.
+				</p>
+
+				<a href="https://www.tutorialspoint.com/" target="_blank" class="btn btn-warning btn-block">Let's
+					Start</a>
+			</div><!-- end panel -->
+		</div><!-- end feature -->
+
+		<div class="col-sm-4 feature">
+			<div class="panel">
+				<div class="panel-heading">
+					<h3 class="panel-title">W3SCHOOLS</h3>
+				</div><!-- end panel-heading -->
+				<img src="images/w3schools.jpeg" alt="HTML5" class="images">
+
+				<p>Tutorials Point originated from the idea that there
+					exists a class of readers who respond better to online content
+					and prefer to learn new skills at their own pace from the comforts
+					of their drawing rooms.
+				</p>
+
+				<a href="https://www.w3schools.com/" target="_blank" class="btn btn-warning btn-block">Let's
+					Start</a>
+			</div><!-- end panel -->
+		</div><!-- end feature -->
+
+		<div class="col-sm-4 feature">
+			<div class="panel">
+				<div class="panel-heading">
+					<h3 class="panel-title">KHAN ACADEMY</h3>
+				</div><!-- end panel-heading -->
+				<img src="images/khan academy.jpeg" alt="HTML5" class="images">
+
+				<p>Tutorials Point originated from the idea that there
+					exists a class of readers who respond better to online content
+					and prefer to learn new skills at their own pace from the comforts
+					of their drawing rooms.
+				</p>
+
+				<a href="https://www.khanacademy.com/" target="_blank" class="btn btn-warning btn-block">Let's
+					Start</a>
+			</div><!-- end panel -->
+		</div><!-- end feature -->
+
+		<div class="col-sm-4 feature">
+			<div class="panel">
+				<div class="panel-heading">
+					<h3 class="panel-title">LYNDA</h3>
+				</div><!-- end panel-heading -->
+				<img src="images/lynda.png" alt="HTML5" class="images">
+
+				<p>Tutorials Point originated from the idea that there
+					exists a class of readers who respond better to online content
+					and prefer to learn new skills at their own pace from the comforts
+					of their drawing rooms.
+				</p>
+
+				<a href="https://www.lynda.com/" target="_blank" class="btn btn-warning btn-block">Let's
+					Start</a>
+			</div><!-- end panel -->
+		</div><!-- end feature -->
+
+		<div class="col-sm-4 feature">
+			<div class="panel">
+				<div class="panel-heading">
+					<h3 class="panel-title">SOPHIA</h3>
+				</div><!-- end panel-heading -->
+				<img src="images/sophia.jpeg" alt="HTML5" class="images">
+
+				<p>Tutorials Point originated from the idea that there
+					exists a class of readers who respond better to online content
+					and prefer to learn new skills at their own pace from the comforts
+					of their drawing rooms.
+				</p>
+
+				<a href="https://www.sophia.com/" target="_blank" class="btn btn-warning btn-block">Let's
+					Start</a>
+			</div><!-- end panel -->
+		</div><!-- end feature -->
+
+		<div class="col-sm-4 feature">
+			<div class="panel">
+				<div class="panel-heading">
+					<h3 class="panel-title">EDX</h3>
+				</div><!-- end panel-heading -->
+				<img src="images/edx.png" alt="HTML5" class="images">
+
+				<p>Tutorials Point originated from the idea that there
+					exists a class of readers who respond better to online content
+					and prefer to learn new skills at their own pace from the comforts
+					of their drawing rooms.
+				</p>
+
+				<a href="https://www.edx.com/" target="_blank" class="btn btn-warning btn-block">Let's
+					Start</a>
+			</div><!-- end panel -->
+		</div><!-- end feature -->
+
+		<div class="col-sm-4 feature">
+			<div class="panel">
+				<div class="panel-heading">
+					<h3 class="panel-title">TED-ED</h3>
+				</div><!-- end panel-heading -->
+				<img src="images/ted-ed.png" alt="HTML5" class="images">
+
+				<p>Tutorials Point originated from the idea that there
+					exists a class of readers who respond better to online content
+					and prefer to learn new skills at their own pace from the comforts
+					of their drawing rooms.
+				</p>
+
+				<a href="https://www.ted-ed.com/" target="_blank" class="btn btn-warning btn-block">Let's
+					Start</a>
+			</div><!-- end panel -->
+		</div><!-- end feature -->
+
+		<div class="col-sm-4 feature">
+			<div class="panel">
+				<div class="panel-heading">
+					<h3 class="panel-title">COURSEERA</h3>
+				</div><!-- end panel-heading -->
+				<img src="images/courseera.png" alt="HTML5" class="images">
+
+				<p>Tutorials Point originated from the idea that there
+					exists a class of readers who respond better to online content
+					and prefer to learn new skills at their own pace from the comforts
+					of their drawing rooms.
+				</p>
+
+				<a href="https://www.courseera.com/" target="_blank" class="btn btn-warning btn-block">Let's
+					Start</a>
+			</div><!-- end panel -->
+		</div><!-- end feature -->
+
+		<div class="col-sm-4 feature">
+			<div class="panel">
+				<div class="panel-heading">
+					<h3 class="panel-title">UDEMY</h3>
+				</div><!-- end panel-heading -->
+				<img src="images/udemy.png" alt="HTML5" class="images">
+
+				<p>Tutorials Point originated from the idea that there
+					exists a class of readers who respond better to online content
+					and prefer to learn new skills at their own pace from the comforts
+					of their drawing rooms.
+				</p>
+
+				<a href="https://www.udemy.com/" target="_blank" class="btn btn-warning btn-block">Let's
+					Start</a>
+			</div><!-- end panel -->
+		</div><!-- end feature -->
+
+
+
+
+
+	</div><!-- end features -->
+
+
+	<div class="row" id="moreInfo">
+		<div class="col-sm-12">
+			<h3>Our Vision</h3>
+			<p>The field of computer graphics developed with the emergence of computer graphics
+				hardware. Today computer graphics is use in almost every field. Many powerful
+				tools have been developed to visualize data. Computer graphics field become
+				more popular when companies started using it in video games. Today it is a
+				multibillion dollar industry and main driving force behind the computer graphics
+				development.</p>
+
+			<h4>MORE ABOUT US</h4>
+
+			<div class="list-group">
+				<a href="#" class="list-group-item">
+					<h4 class="list-group-item-heading">Our Goal</h4>
+					<p class="list-group-item-text">To promote education to all,freely and have to
+						made a country with well educated people in the world.So,Be a active member
+						in our website by surfing daily.
+					</p>
+				</a>
+				<a href="#" class="list-group-item">
+					<h4 class="list-group-item-heading">Target</h4>
+					<p class="list-group-item-text">To promote education to all,freely and have to
+						made a country with well educated people in the world.So,Be a active member
+						in our website by surfing daily.</p>
+				</a>
+				<a href="#" class="list-group-item">
+					<h4 class="list-group-item-heading">Students Notes</h4>
+					<p class="list-group-item-text">To promote education to all,freely and have to
+						made a country with well educated people in the world.So,Be a active member
+						in our website by surfing daily.</p>
+				</a>
+			</div><!-- list-group -->
+
+			<h5>Sample Pages in website</h5>
+			<p>Since capturing an image from a camera is a physical process. The sunlight is used
+				as a source of energy. A sensor array is used for the acquisition of the image.
+				So when the sunlight falls upon the object, then the amount of light reflected by
+				that object is sensed by the sensors, and a continuous voltage signal is generated
+				by the amount of sensed data. In order to create a digital image , we need to convert
+				this data into a digital form. This involves sampling and quantization. (They are
+				discussed later on). The result of sampling and quantization results in an two
+				dimensional array or matrix of numbers which are nothing but a digital image.
+			</p>
+		</div><!-- end col-sm-12 -->
+		<div class="col-sm-12">
+			<h3>Google Maps</h3>
+			<div class="tabbable">
+				<ul class="nav nav-tabs">
+					<li class="active"><a href="#tab1" data-toggle="tab">Maps</a></li>
+					<li><a href="#tab2" data-toggle="tab">Our Journey</a></li>
+				</ul>
+				<div class="tab-content">
+					<div class="tab-pane active" id="tab1">
+						<h4><span class="glyphicon glyphicon-map-marker"></span> Our Location <small>More like our
+								favourite surf spot</small></h4>
+
+						<iframe width="100%" height="200" frameborder="0" scrolling="no" marginheight="0"
+							marginwidth="0"
+							src="https://maps.google.ca/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=waikiki+beach&amp;aq=&amp;sll=19.896766,-155.582782&amp;sspn=8.711424,11.854248&amp;ie=UTF8&amp;hq=&amp;hnear=Waikiki+Beach,+Honolulu,+Hawaii,+United+States&amp;t=m&amp;ll=21.277298,-157.8265&amp;spn=0.015996,0.036478&amp;z=14&amp;output=embed"></iframe>
+
+						<p>Indian education system is quite different from that of the foreign nations.
+							The curriculum in the western countries is known to be quite light and based
+							on practical knowledge whereas in India the focus is on theoretical knowledge
+							and acquiring marks by hook or crook.
+
+							Students are expected to mug up chapter after chapter and fetch good grades
+							in the class. The marking system in the Indian schools begins from the
+							primary classes thereby burdening little kids. The competition is growing
+							by the day. Parents want their children to outperform their peers and
+							teachers want their class to do better than the other classes.
+
+							They are so blinded by the urge of staying ahead of the competition that
+							they do not realise that they are pushing the children in the wrong
+							direction. At an age when the students should be given the chance to
+							explore their interests and hone their creative side, they are pressurized
+							to follow a set curriculum and slog day and night to get good marks.
+
+							Instead of making the students understand various concepts of mathematics,
+							physics and other subjects so that they can use them at different stages
+							in their life, the focus is on blindly learning the chapters whether or
+							not the concepts are understood just so that one can get good marks.
+							So, the very basis of the Indian education system is inappropriate.
+						</p>
+
+
+					</div><!-- end tab-pane -->
+
+					<div class="tab-pane" id="tab2">
+						<h4>A Left Floated Picture <small>Using Placehold.it</small></h4>
+
+						<img src="images/study corner.png" class="thumbnail pull-left" alt="Placeholder image">
+
+						<p>Indian education system is quite different from that of the foreign nations.
+							The curriculum in the western countries is known to be quite light and based
+							on practical knowledge whereas in India the focus is on theoretical knowledge
+							and acquiring marks by hook or crook.
+
+							Students are expected to mug up chapter after chapter and fetch good grades
+							in the class. The marking system in the Indian schools begins from the
+							primary classes thereby burdening little kids. The competition is growing
+							by the day. Parents want their children to outperform their peers and
+							teachers want their class to do better than the other classes.
+						</p>
+						<p>
+							They are so blinded by the urge of staying ahead of the competition that
+							they do not realise that they are pushing the children in the wrong
+							direction. At an age when the students should be given the chance to
+							explore their interests and hone their creative side, they are pressurized
+							to follow a set curriculum and slog day and night to get good marks.
+
+							Instead of making the students understand various concepts of mathematics,
+							physics and other subjects so that they can use them at different stages
+							in their life, the focus is on blindly learning the chapters whether or
+							not the concepts are understood just so that one can get good marks.
+							So, the very basis of the Indian education system is inappropriate.
+							Instead of making the students understand various concepts of mathematics,
+							physics and other subjects so that they can use them at different stages
+							in their life, the focus is on blindly learning the chapters whether or
+							not the concepts are understood just so that one can get good marks.
+							So, the very basis of the Indian education system is inappropriate.
+						</p>
+
+
+
+						<a href="#myModal" role="button" class="btn btn-warning" data-toggle="modal"><span
+								class="glyphicon glyphicon-hand-up"></span> Life-Time Membership</a>
+
+						<div class="modal fade" id="myModal">
+							<div class="modal-dialog">
+								<div class="modal-content">
+									<div class="modal-header ">
+										<button class="close" data-dismiss="modal">&times;</button>
+
+										<h4 class="modal-title">Permanent Membership</h4>
+									</div><!-- end modal-header -->
+									<div class="modal-body">
+										<h4>About the student</h4>
+
+										<p>Your attempt may fail,but never fail to make an attempt</p>
+
+										<h4>Make you Aware of this</h4>
+										<a href="#" class="btn btn-danger pop" data-toggle="popover"
+											data-placement="top" data-original-title="You clicked it!"
+											data-content="I knew you would.">Don't click this button</a>
+
+										<h4>Extra Fun</h4>
+										<a href="" data-original-title="Tooltip" rel="tooltip">This link</a> should
+										have a tooltip, and so should <a href="#" data-original-title="Woohoo!"
+											rel="tooltip">this one</a>!
+
+										<hr>
+
+										<p><small class="text-muted">PS. This form doesn't do anything. Just a heads
+												up.</small></p>
+
+										<form class="form-horizontal">
+											<div class="form-group">
+												<label class="col-lg-2 control-label" for="inputName">Name</label>
+												<div class="col-lg-10">
+													<input class="form-control" id="inputName" placeholder="Name"
+														type="text">
+												</div>
+											</div>
+
+											<div class="form-group">
+												<label class="col-lg-2 control-label" for="inputEmail">Email</label>
+												<div class="col-lg-10">
+													<input class="form-control" id="inputEmail" placeholder="Email"
+														type="email">
+												</div>
+											</div>
+
+											<div class="form-group">
+												<label class="col-lg-2 control-label" for="inputMessage">Message</label>
+												<div class="col-lg-10">
+													<textarea class="form-control" id="inputMessage"
+														placeholder="Message" rows="3"></textarea>
+													<button class="btn btn-success pull-right"
+														type="submit">Send!</button>
+												</div>
+											</div>
+										</form>
+									</div><!-- end modal-body -->
+
+									<div class="modal-footer">
+										<button class="btn btn-default" data-dismiss="modal"
+											type="button">Close</button> <button class="btn btn-primary"
+											type="button">Save changes</button>
+									</div><!-- end modal-footer -->
+								</div><!-- end modal-content -->
+							</div><!-- end modal-dialog -->
+						</div><!-- end myModal -->
+
+					</div><!-- end tab-pane -->
+				</div><!-- end tab-content -->
+			</div><!-- end tabbable -->
+		</div><!-- end col-sm-12 -->
+
+
+	</div><!-- end moreInfo -->
+
+	<hr>
+
+	<div class="row" id="moreCourses">
+		<div class="col-12">
+			<h3>More variety of dishes</h3>
+			<div class="thumbnails row">
+				<div class="col-6">
+					<div class="thumbnail">
+						<img src="images/pricetag1.jpg" alt="Price of our cousrse">
+
+						<div class="label label-success price"><span class="glyphicon glyphicon-tag"></span>Rs 2000
+						</div>
+
+						<div class="caption">
+							<h3>Course Details</h3>
+
+							<p>Tutor</p>
+
+							<p><a href="https://www.udemy.com/build-beautiful-html5-website/"
+									class="btn btn-primary btn-small" target="_blank">Wishlist</a> <a
+									href="https://www.udemy.com/build-beautiful-html5-website/" target="_blank"
+									class="btn btn-small btn-link">Enroll Now</a></p>
+						</div><!-- end caption -->
+					</div><!-- end thumbnail -->
+				</div><!-- end col-6 -->
+
+				<div class="col-6">
+					<div class="thumbnail">
+						<img src="images/pricetag2.jpg" alt="price of our course">
+
+						<div class="label label-info price"><span class="glyphicon glyphicon-tag"></span> Rs 1000</div>
+
+						<div class="caption">
+							<h3>Course Details</h3>
+
+							<p>Tutor</p>
+
+							<p><a href="https://www.udemy.com/web-hosting-101/" class="btn btn-primary btn-small"
+									target="_blank">Wishlist</a> <a href="https://www.udemy.com/web-hosting-101/"
+									target="_blank" class="btn btn-small btn-link">Enroll Now</a></p>
+						</div><!-- end caption -->
+					</div><!-- end thumbnail -->
+				</div><!-- end col-6 -->
+			</div><!-- end row -->
+		</div><!-- end col-12 -->
+	</div><!-- end moreCourses -->
+	</div><!-- end container -->
+
+	<footer id="footer-main">
+		<div class="container">
+			<div class="row">
+
+				<div class="col-sm-4">
+					<ul class="list-unstyled">
+						<li>
+							<a href="#">USEFUL LINKS</a>
+						</li>
+						<li>
+							<a href="#">CONTACT US</a>
+						</li>
+						<li>
+							<a href="#">FAQ</a>
+						</li>
+						<li>
+							<a href="#">T&C</a>
+						</li>
+						<li>
+							<a href="#">Terms Of Use</a>
+						</li>
+						<li>
+							<a href="#">Careers</a>
+						</li>
+						<li>
+							<a href="#">Gift Coupuns</a>
+						</li>
+					</ul>
+				</div>
+				<div class="col-sm-4">
+					<ul class="list-unstyled">
+						<li>
+							<a href="#"><i class="fab fa-facebook">Facebook</i></a>
+						</li>
+
+						<li>
+							<a href="#"><i class="fab fa-twitter">Twitter</i></a>
+						</li>
+
+						<li>
+							<a href="#"><i class="fab fa-whatsapp">Whatsapp</i></a>
+						</li>
+
+						<li>
+							<a href="#"><i class="fab fa-linkedin">Linkedin</i></a>
+						</li>
+						<li>
+							<a href="#"><i class="fab fa-youtube">Youtube</i></a>
+						</li>
+
+
+						<li>
+							<a href="#"><i class="fab fa-telegram">Telegram</i></a>
+						</li>
+
+						<li>
+							<p>web design,Copyright &copy;2019</p>
+						</li>
+
+					</ul>
+				</div>
+				<div class="col-sm-4" id="app">
+					<ul class="list-unstyled">
+						<li>
+							<a href="#">ABOUT US</a>
+						</li>
+
+						<li>
+							<a href="#">CAREERS</a>
+						</li>
+
+						<li>
+							<a href="#">INVESTORS</a>
+						</li>
+
+						<li>
+							<a href="#">FAX</a>
+						</li>
+
+						
+						__________________________________________
+						<li role="presentation" class="divider"></li>
+
+
+					</ul>
+
+					<ul class="list-unstyled">
+						<p>Experience Study Corner app on Mobile</p>
+						<li>
+							<a href="#">
+								<img src="images/android.png" alt="Android" />
+							</a>
+						</li>
+
+
+						<li>
+							<a href="#">
+								<img src="images/apple.png" alt="Apple">
+							</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</footer>
+
+
+	<!-- All Javascript at the bottom of the page for faster page loading -->
+
+	<!-- First try for the online version of jQuery-->
+	<script src="http://code.jquery.com/jquery.js"></script>
+
+	<!-- If no online access, fallback to our hardcoded version of jQuery -->
+	<script>window.jQuery || document.write('<script src="includes/js/jquery-1.8.2.min.js"><\/script>')</script>
+
+	<!-- Bootstrap JS -->
+	<script src="bootstrap/js/bootstrap.min.js"></script>
+
+	<!-- Custom JS -->
+	<script src="includes/js/script.js"></script>
+
+</body>
+
+</html>

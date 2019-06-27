@@ -1,0 +1,66 @@
+.panel {
+    height:450px;
+}
+
+.list-unstyled img {
+    
+    width:200px;
+    height: 70px;
+}
+.list-unstyled li a img {
+    display: inline;
+}
+h5,h4 {
+    font-size:25px;
+}
+.thumbnail  img {
+    width: 100%;
+}
+.caption {
+    margin-left:200px;
+}
+.images {
+    width:250px;
+    height:230px;
+}
+body {
+    font-family: 'Stylish', sans-serif;
+    font-size: 15px;
+}
+
+.item img{
+    height: 100%;
+}
+#mycarousel {
+    margin-top:0px
+}
+#mycarousel .item {
+    height: 800px;
+}
+.carousel-caption {
+    padding-top:400px;
+    font-size: 24px;
+}
+.carousel-caption h4 {
+    font:black;
+    padding-top: 400px;
+    font-size: 32px;
+}
+
+.carousel-inner{
+    padding-top:26px;
+    
+}
+#slide1{
+    height: 300px;
+    background: top center no-repeat;
+}
+#slide2{
+    background: top center no-repeat;
+}
+#slide3{
+    background: top center no-repeat;
+}
+.carousel-inner .item {
+    height:300px;
+}
